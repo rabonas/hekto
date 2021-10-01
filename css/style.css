@@ -67,6 +67,10 @@ header {
     color: #0D0E43;
 }
 
+.header__link:hover {
+    color: #FB2E86;
+}
+
 #mySearch {
     width: 260px;
     outline: none;
@@ -320,7 +324,6 @@ header {
 }
 
 .swiper-pagination-bullet-active {
-    padding: 2px 12px;
     background: #FB2E86;
 }
 
@@ -331,7 +334,7 @@ header {
     margin: 0 5px;
     padding: 2px 8px;
     font-size: 0;
-    background-color: #FEBAD7;
+    background-color: #FB2E86;
     border-radius: 10px;
     transition: all 0.5s linear;
 }
@@ -434,4 +437,133 @@ header {
     height: 2px;
     background-color: #EEEFFB;
     transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+}
+
+/* ============================
+        SECTION-OFFER
+============================ */
+
+.offer {
+    text-align: center;
+    padding-bottom: 135px;
+}
+
+.offer__title {
+    margin: 0 0 55px;
+    font-size: 42px;
+    color: #151875;
+}
+
+.support {
+    width: 24%;
+    padding: 60px 26px 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+
+.support:nth-child(1) {
+    padding-top: 74px;
+}
+
+.support__title {
+    margin: 22px 0 20px;
+    font-size: 22px;
+    color: #151875;
+}
+
+.small {
+    margin-top: 30px;
+}
+
+.support__text {
+    margin: 0;
+    color: rgba(26, 11, 91, 0.3);
+}
+
+/* ============================
+        SECTION-UNIQUE
+============================ */
+
+.unique {
+    padding: 15px 0;
+    background-color: #F1F0FF;
+}
+
+.row_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unique__title {
+    margin: 0;
+    font-size: 35px;
+    letter-spacing: 0.015em;
+    color: #151875;
+}
+
+.unique__about {
+    padding-left: 30px;
+    margin: 29px 0 25px;
+    color: #ACABC3;
+}
+
+.unique__about li {
+    list-style: none;
+    margin-bottom: 13px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+}
+
+.about-circle {
+    position: relative;
+}
+
+.about-circle::before {
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 4px;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+}
+
+.about_pink::before {
+    background-color: #F52B70;
+}
+
+.about_blue::before {
+    background-color: #2B2BF5;
+}
+
+.about_green::before {
+    background-color: #2BF5CC;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+}
+
+.add-btn {
+    padding: 14px 24px;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    background: #FB2E86;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+}
+
+.add__text {
+    font-size: 14px;
+    padding-left: 20px;
+    color: #151875;
+}
+
+.unique__price {
+    display: block;
+    margin: 2px 0;
 }
