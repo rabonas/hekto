@@ -1,4 +1,5 @@
 @import url(./icon.css);
+@import "@fancyapps/ui/dist/fancybox.css";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
@@ -119,6 +120,7 @@ header {
 }
 
 .intro__span {
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #FB2E86;
 }
@@ -130,6 +132,7 @@ header {
 }
 
 .intro__text {
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     line-height: 28px;
     color: #8A8FB9;
@@ -152,14 +155,14 @@ header {
     position: absolute;
     top: 115px;
     left: -80px;
-    width: 300px;
+    width: 25%;
 }
 
 .sofa {
     position: absolute;
     top: 155px;
     right: 0;
-    width: 500px;
+    width: 40%;
 }
 
 .pinks {
@@ -295,6 +298,7 @@ header {
 }
 
 .chair__name {
+    font-family: 'Lato', sans-serif;
     margin: 15px 0 0;
     font-size: 18px;
     color: #FB2E86;
@@ -358,6 +362,7 @@ header {
 }
 
 .leatest__link {
+    font-family: 'Lato', sans-serif;
     margin: 0 28px;
     font-size: 18px;
     color: #151875;
@@ -479,6 +484,8 @@ header {
 }
 
 .support__text {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
     margin: 0;
     color: rgba(26, 11, 91, 0.3);
 }
@@ -512,6 +519,8 @@ header {
 }
 
 .unique__about li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
     list-style: none;
     margin-bottom: 13px;
     line-height: 132%;
@@ -596,6 +605,7 @@ header {
 
 .cantilever__img img {
     margin-top: calc(100% - 88%);
+    width: 90%;
 }
 
 .cantilever__name {
@@ -644,6 +654,7 @@ header {
 }
 
 .prod__link {
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: #151875;
     text-decoration: none;
@@ -703,6 +714,7 @@ header {
 
 
 .discount__link {
+    font-family: 'Lato', sans-serif;
     position: relative;
     margin: 10px 15px 0;
     font-size: 18px;
@@ -750,6 +762,7 @@ header {
 }
 
 .discount__text {
+    font-family: 'Lato', sans-serif;
     margin: 20px 0 28px;
     font-size: 17px;
     letter-spacing: 0.02em;
@@ -757,6 +770,7 @@ header {
 }
 
 .icon-checkmark {
+    font-family: 'Lato', sans-serif;
     display: block;
     margin: 0 0 10px;
     letter-spacing: 0.02em;
@@ -924,11 +938,13 @@ header {
 }
 
 .trends__about {
+    font-family: 'Lato', sans-serif;
     margin: 0 0 14px;
     color: #72718F;
 }
 
 .read-more {
+    font-family: 'Lato', sans-serif;
     color: #151875;
 }
 
@@ -954,10 +970,10 @@ header {
 
 .login-inp {
     display: block;
-    width: 377px;
-    padding: 3px;
+    width: 373px;
+    margin: 30px 0 25px;
+    padding: 2px;
     background: #FFFFFF;
-    opacity: 0.45;
     border-radius: 3px;
 }
 
@@ -970,18 +986,46 @@ header {
 
 .login-inp button {
     border: none;
+    font-weight: 500;
+    color: #EEEFFB;
+    background: #FB2E86;
+    border-radius: 3px;
     padding: 10px 40px;
 }
 
+.footer__info {
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    color: #8A8FB9;
+}
+
 .link__name {
+    font-family: 'Lato', sans-serif;
     margin: 0 0 32px;
     font-weight: 600;
     font-size: 22px;
 }
 
 .footer__link {
+    font-family: 'Lato', sans-serif;
     display: block;
     margin: 20px 0;
     text-decoration: none;
     color: #8A8FB9;
+}
+
+.footer-bottom {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #9DA0AE;
+    padding: 17px 0;
+    background: #E7E4F8;
+}
+
+.address__link {
+    padding: 8px 6px 5px;
+    border-radius: 50%;
+    text-decoration: none;
+    background: #151875;
+    color: #fff;
 }

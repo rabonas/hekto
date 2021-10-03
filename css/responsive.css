@@ -1,0 +1,48 @@
+@media(max-width: 1199px) {
+
+    .container {
+        max-width: 965px;
+    }
+
+    #mySearch {
+        width: auto;
+    }
+
+    .intro {
+        padding-top: 240px;
+    }
+
+    .intro__txt {
+        width: 550px;
+        margin-left: 85px;
+    }
+
+    .intro__title {
+        font-size: 40px;
+    }
+
+    .intro__txt::before {
+        left: -55px;
+    }
+
+    .cantilever__img {
+        height: 200px;
+    }
+
+}
+
+@media(max-width: 991px) {
+
+}
+
+@media(max-width: 767px) {
+
+}
+
+@media(max-width: 565px) {
+
+}
+
+@media(max-width: 480px) {
+
+}
